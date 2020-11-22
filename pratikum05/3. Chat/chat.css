@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#chatBox{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    margin: 10px;
+}
+.input{
+    position: absolute;
+    padding: 2px;
+    bottom: 0px;
+    width: 100%;
+}
+#text{
+    width: 85%;
+    line-height: 20px;
+}
+#kirim{
+    width: 14%;
+    height: 25px;
+}
